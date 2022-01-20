@@ -54,6 +54,10 @@ public class Owner extends Person {
 	@NotEmpty
 	private String city;
 
+	@Column(name = "age")
+	@NotEmpty
+	private String age;
+
 	@Column(name = "telephone")
 	@NotEmpty
 	@Digits(fraction = 0, integer = 10)
@@ -79,6 +83,10 @@ public class Owner extends Person {
 	public void setCity(String city) {
 		this.city = city;
 	}
+
+	public String getAge(){return this.age;}
+
+	public void setAge(String age){this.age=age;}
 
 	public String getTelephone() {
 		return this.telephone;
