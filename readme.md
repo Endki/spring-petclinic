@@ -1,6 +1,6 @@
 # Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)
 
-##코드를 조금 고쳐보자 
+## 코드를 조금 고쳐보자 
 - LastName이 아니라 FirstName으로 검색해 보자
 - 정확히 일치하는게 아니라 해당 키워드가 들어있는 걸 찾아보는 것으로 변경해보자
 - Owner 객체에 age를 추가해보자 (after effect Check)
